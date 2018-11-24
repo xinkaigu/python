@@ -1,4 +1,35 @@
+# lesson 11
+#####################
+学校 = ["一年级", "二年级", "三年级", "四年级", "五年级", "六年级"]
+schoollen = len(学校)
+while 1 == 1:
+    A = input()
+    print(学校[int(A) - 1])
+#####################1
+# lesson 10
+#####################
 
+# while 1 == 1:
+#     a = input()
+#     d = input()
+#     s = input()
+#     if d == '*':
+#         f = int(a) * int(s)
+#         print(int(f))
+#     elif d == '/':
+#         f = int(a) / int(s)
+#         print(int(f))
+#     elif d == '+':
+#         f = int(a) + int(s)
+#         print(int(f))
+#     elif d == '-':
+#         f = int(a) - int(s)
+#         print(int(f))
+#     else:
+#         print('程序不对')
+
+
+#####################
 # lesson 9
 #####################
 # import random
@@ -13,6 +44,12 @@
 #     g = input()
 #     if int(g) == f:
 #         print('对了')
+######################
+# a = 1
+# while 1 == 1:
+#     a = a + 1
+#     print(a)
+#     if a == 6:
 #         h=h+1
 #     else:
 #         print('错了')
@@ -38,12 +75,6 @@
 #         break
 ######################
 # lesson 7
-######################
-# a = 1
-# while 1 == 1:
-#     a = a + 1
-#     print(a)
-#     if a == 6:
 #         break
 ######################
 # lesson 6
