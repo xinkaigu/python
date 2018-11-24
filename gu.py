@@ -1,10 +1,14 @@
 # lesson 11
 #####################
 学校 = ["一年级", "二年级", "三年级", "四年级", "五年级", "六年级"]
-schoollen = len(学校)
+schoolen = len(学校)
+print(schoolen)
 while 1 == 1:
     A = input()
-    print(学校[int(A) - 1])
+    try:
+        print(学校[int(A) - 1])
+    except:
+        print('你不是小学生')
 #####################1
 # lesson 10
 #####################
