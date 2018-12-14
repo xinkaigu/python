@@ -6,3 +6,7 @@
 #         print(成绩[A])
 #     except:
 #         print('没有找到该同学的成绩')
+while 1 == 1:
+    a = input()
+    if a == '妈妈':
+        print('祝你生日快乐')
