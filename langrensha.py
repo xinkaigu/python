@@ -1,7 +1,9 @@
 import random
 
-v = 0
 while 1 == 1:
+    v = 0
+    n = 0
+
     a = (random.randint(1, 7))
     if a == 1:
         a = (random.randint(1, 7))
@@ -54,7 +56,7 @@ while 1 == 1:
     if a == 1:
         print('首领')
         input()
-        qw = 1
+        qw = 2
         zxc = '首领'
 
     elif a == 2:
@@ -66,7 +68,7 @@ while 1 == 1:
     elif a == 3:
         print('预言家')
         input()
-        qw = 1
+        qw = 2
         zxc = '预言家'
 
     elif a == 4:
@@ -74,17 +76,18 @@ while 1 == 1:
         input()
         qw = 1
         zxc = '狼人'
+        n = n - 1
 
     elif a == 5:
         print('平民')
         input()
-        qw = 1
+        qw = 2
         zxc = '平民'
 
     elif a == 6:
         print('猎人')
         input()
-        qw = 1
+        qw = 2
         zxc = '猎人'
 
     else:
@@ -96,7 +99,7 @@ while 1 == 1:
     if b == 1:
         print('首领')
         input()
-        we = 1
+        we = 2
         xcv = '首领'
 
     elif b == 2:
@@ -108,7 +111,7 @@ while 1 == 1:
     elif b == 3:
         print('预言家')
         input()
-        we = 1
+        we = 2
         xcv = '预言家'
 
     elif b == 4:
@@ -116,17 +119,18 @@ while 1 == 1:
         input()
         we = 1
         xcv = '狼人'
+        n = n - 1
 
     elif b == 5:
         print('平民')
         input()
-        we = 1
+        we = 2
         xcv = '平民'
 
     elif b == 6:
         print('猎人')
         input()
-        we = 1
+        we = 2
         xcv = '猎人'
 
     else:
@@ -138,7 +142,7 @@ while 1 == 1:
     if c == 1:
         print('首领')
         input()
-        er = 1
+        er = 2
         cvb = '首领'
 
     elif c == 2:
@@ -150,25 +154,26 @@ while 1 == 1:
     elif c == 3:
         print('预言家')
         input()
-        er = 1
+        er = 2
         cvb = '预言家'
 
     elif c == 4:
         print('狼人')
         input()
-        er = 1
+        er = 2
         cvb = '狼人'
+        n = n - 1
 
     elif c == 5:
         print('平民')
         input()
-        er = 1
+        er = 2
         cvb = '平民'
 
     elif c == 6:
         print('猎人')
         input()
-        er = 1
+        er = 2
         cvb = '猎人'
 
     else:
@@ -186,13 +191,13 @@ while 1 == 1:
     elif d == 2:
         print('女巫')
         input()
-        rt = 1
+        rt = 2
         vbn = '女巫'
 
     elif d == 3:
         print('预言家')
         input()
-        rt = 1
+        rt = 2
         vbn = '预言家'
 
     elif d == 4:
@@ -200,17 +205,18 @@ while 1 == 1:
         input()
         rt = 1
         vbn = '狼人'
+        n = n - 1
 
     elif d == 5:
         print('平民')
         input()
-        rt = 1
+        rt = 2
         vbn = '平民'
 
     elif d == 6:
         print('猎人')
         input()
-        rt = 1
+        rt = 2
         vbn = '猎人'
 
     else:
@@ -222,7 +228,7 @@ while 1 == 1:
     if e == 1:
         print('首领')
         input()
-        ty = 1
+        ty = 2
         bnm = '首领'
     elif e == 2:
         print('女巫')
@@ -233,7 +239,7 @@ while 1 == 1:
     elif e == 3:
         print('预言家')
         input()
-        ty = 1
+        ty = 2
         bnm = '预言家'
 
     elif e == 4:
@@ -241,17 +247,18 @@ while 1 == 1:
         input()
         ty = 1
         bnm = '狼人'
+        n = n - 1
 
     elif e == 5:
         print('平民')
         input()
-        ty = 1
+        ty = 2
         bnm = '平民'
 
     elif e == 6:
         print('猎人')
         input()
-        ty = 1
+        ty = 2
         bnm = '猎人'
 
     else:
@@ -263,7 +270,7 @@ while 1 == 1:
     if f == 1:
         print('首领')
         input()
-        yu = 1
+        yu = 2
         nml = '首领'
 
     elif f == 2:
@@ -275,7 +282,7 @@ while 1 == 1:
 
         print('预言家')
         input()
-        yu = 1
+        yu = 2
         nml = '预言家'
 
     elif f == 4:
@@ -283,17 +290,18 @@ while 1 == 1:
         input()
         yu = 1
         nml = '狼人'
+        n = n - 1
 
     elif f == 5:
         print('平民')
         input()
-        yu = 1
+        yu = 2
         nml = '平民'
 
     elif f == 6:
         print('猎人')
         input()
-        yu = 1
+        yu = 2
         nml = '猎人'
 
     else:
@@ -305,7 +313,7 @@ while 1 == 1:
     if g == 1:
         print('首领')
         input()
-        ui = 1
+        ui = 2
         lkj = '首领'
 
     elif g == 2:
@@ -317,7 +325,7 @@ while 1 == 1:
     elif g == 3:
         print('预言家')
         input()
-        ui = 1
+        ui = 2
         lkj = '预言家'
 
     elif g == 4:
@@ -325,17 +333,18 @@ while 1 == 1:
         input()
         ui = 1
         lkj = '狼人'
+        n = n - 1
 
     elif g == 5:
         print('平民')
         input()
-        ui = 1
+        ui = 2
         lkj = '平民'
 
     elif g == 6:
         print('猎人')
         input()
-        ui = 1
+        ui = 2
         lkj = '猎人'
 
     else:
@@ -352,20 +361,19 @@ while 1 == 1:
         input()
         o = input('选吧')
         if o == '1':
-            qw = qw - 1
+            qw = qw - 2
         elif o == '2':
-            we = we - 1
+            we = we - 2
         elif o == '3':
-            er = er - 1
+            er = er - 2
         elif o == '4':
-            rt = rt - 1
+            rt = rt - 2
         elif o == '5':
-            ty = ty - 1
+            ty = ty - 2
         elif o == '6':
-            yu = yu - 1
+            yu = yu - 2
         elif o == '7':
-            ui = ui - 1
-
+            ui = ui - 2
         print('狼人请闭眼')
         input()
         print('女巫请睁眼')
@@ -378,36 +386,36 @@ while 1 == 1:
         input()
         if qwe == '解药':
             if wer == '1':
-                qw = qw + 1
+                qw = qw + 2
             elif wer == '2':
-                we = we + 1
+                we = we + 2
             elif wer == '3':
-                er = er + 1
+                er = er + 2
             elif wer == '4':
-                rt = rt + 1
+                rt = rt + 2
             elif wer == '5':
-                ty = ty + 1
+                ty = ty + 2
             elif wer == '6':
-                yu = yu + 1
+                yu = yu + 2
             elif wer == '7':
-                ui = ui + 1
+                ui = ui + 2
         else:
             input()
             wer = input('你要杀谁')
             if wer == '1':
-                qw = qw - 1
+                qw = qw - 2
             elif wer == '2':
-                we = we - 1
+                we = we - 2
             elif wer == '3':
-                er = er - 1
+                er = er - 2
             elif wer == '4':
-                rt = rt - 1
+                rt = rt - 2
             elif wer == '5':
-                ty = ty - 1
+                ty = ty - 2
             elif wer == '6':
-                yu = yu - 1
+                yu = yu - 2
             elif wer == '7':
-                ui = ui - 1
+                ui = ui - 2
         print('女巫请闭眼')
         input()
         print('预言家请睁眼')
@@ -438,64 +446,64 @@ while 1 == 1:
         input()
         k = input('选吧')
         if k == '1':
-            qw = qw - 1
+            qw = qw - 2
         elif k == '2':
-            we = we - 1
+            we = we - 2
         elif k == '3':
-            er = er - 1
+            er = er - 2
         elif k == '4':
-            rt = rt - 1
+            rt = rt - 2
         elif k == '5':
-            ty = ty - 1
+            ty = ty - 2
         elif k == '6':
-            yu = yu - 1
+            yu = yu - 2
         elif k == '7':
-            ui = ui - 1
+            ui = ui - 2
         print('首领请闭眼')
         input()
         print('天亮了')
         input()
-        if qw == 0:
+        if qw <= 0:
             print('1号被杀')
             print('身份是' + zxc)
-        if we == 0:
+        if we <= 0:
             print('2号被杀')
             print('身份是' + xcv)
-        if er == 0:
+        if er <= 0:
             print('3号被杀')
             print('身份是' + cvb)
-        if rt == 0:
+        if rt <= 0:
             print('4号被杀')
             print('身份是' + vbn)
-        if ty == 0:
+        if ty <= 0:
             print('5号被杀')
             print('身份是' + bnm)
-        if yu == 0:
+        if yu <= 0:
             print('6号被杀')
             print('身份是' + nml)
-        if ui == 0:
+        if ui <= 0:
             print('7号被杀')
             print('身份是' + lkj)
 
-        if qw == 0:
+        if qw <= 0:
             print('1号被杀')
             print('身份是' + zxc)
-        elif we == 0:
+        elif we <= 0:
             print('2号被杀')
             print('身份是' + xcv)
-        elif er == 0:
+        elif er <= 0:
             print('3号被杀')
             print('身份是' + cvb)
-        elif rt == 0:
+        elif rt <= 0:
             print('4号被杀')
             print('身份是' + vbn)
-        elif ty == 0:
+        elif ty <= 0:
             print('5号被杀')
             print('身份是' + bnm)
-        elif yu == 0:
+        elif yu <= 0:
             print('6号被杀')
             print('身份是' + nml)
-        elif ui == 0:
+        elif ui <= 0:
             print('7号被杀')
             print('身份是' + lkj)
         else:
@@ -512,51 +520,92 @@ while 1 == 1:
         ujm = input('同意投7号的人请举手')
         plm = max(qaz, wsx, edc, rfv, tgb, yhn, ujm)
         if plm == qaz:
-            qw = qw - 100000000000000000000000000000
+            qw = qw - 1
             print('1号已处死')
             input()
             print('公布身份')
             input()
             print(zxc)
-        elif wsx == plm:
-            we = we - 100000000000000000000000
+        if wsx == plm:
+            we = we - 1
             print('2号已处死')
             input()
             print('公布身份')
             input()
             print(xcv)
-        elif edc == plm:
-            er = er - 10000000000000000000000000
+        if edc == plm:
+            er = er - 1
             print('3号已处死')
             input()
             print('公布身份')
             input()
             print(cvb)
-        elif rfv == plm:
-            rt = rt - 1000000000000000000000000
+        if rfv == plm:
+            rt = rt - 1
             print('4号已处死')
             input()
             print('公布身份')
             input()
             print(vbn)
-        elif tgb == plm:
-            ty = ty - 10000000000000000000000000
+        if tgb == plm:
+            ty = ty - 1
             print('5号已处死')
             input()
             print('公布身份')
             input()
             print(bnm)
-        elif yhn == plm:
-            yu = yu - 1000000000000000000000
+        if yhn == plm:
+            yu = yu - 1
             print('6号已处死')
             input()
             print('公布身份')
             input()
             print(nml)
-        elif ujm == plm:
-            ui = ui - 10000000000000000000000
+        if ujm == plm:
+            ui = ui - 1
             print('6号已处死')
             input()
             print('公布身份')
             input()
             print(lkj)
+        poi = max(qw, we, er, rt, ty, yu, ui)
+        wnv = min(qw, we, er, rt, ty, yu, ui)
+        if poi == 1:
+            print('狼人胜利')
+            v = v + 1
+            kju = 0
+        elif poi == 100:
+            if wnv == -1:
+                if zxc == '狼人':
+                    kju = kju + qw
+                    if kju == n:
+                        print('狼人胜利')
+                if xcv == '狼人':
+                    kju = kju + we
+                    if kju == n:
+                        print('狼人胜利')
+                if cvb == '狼人':
+                    kju = kju + er
+                    if kju == n:
+                        print('狼人胜利')
+                if vbn == '狼人':
+                    kju = kju + rt
+                    if kju == n:
+                        print('狼人胜利')
+                if bnm == '狼人':
+                    kju = kju + ty
+                    if kju == n:
+                        print('狼人胜利')
+                if nml == '狼人':
+                    kju = kju + yu
+                    if kju == n:
+                        print('狼人胜利')
+                if lkj == '狼人':
+                    kju = kju + ui
+                    if kju == n:
+                        print('狼人胜利')
+                    if kju == -7:
+                        print('人类胜利')
+                        v = v + 1
+                        if kju == n:
+                            print('狼人胜利')
