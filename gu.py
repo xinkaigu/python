@@ -1,20 +1,55 @@
 # lesson 15
 #####################
+def we(x):
+    B = 0
+    for mod in x:
+        if B == 0:
+            A = mod
+            B = 0
+        if A > mod:
+            A = mod
+            B = 1
+        elif A < mod:
+            B = 0
+    return A
 
+
+def get_max(x):
+    b = 0
+    for mod in x:
+        if b < mod:
+            b = mod
+    return b
+
+
+a = {2, 1, 3, 7, 5, 3, 9, 7, 8, }
+w = we(a)
+print(w)
 #####################
 # lesson 14
 #####################
-
+# def we(you, me):
+#     for mod in you:
+#         if mod == me:
+#             return me
+#
+#     return 0
+#
+#
+# a = {"A","B"}
+# b = 'B'
+# our = we(a, b)
+# print(our)
 #####################
 # lesson 13
 #####################
-def nihao(A, B, C):
-    return (A + B) * C
-
-
-a = nihao(1, 2, 3, )
-print(a)
-#####################
+# def nihao(A, B, C):
+#     return (A + B) * C
+#
+#
+# a = nihao(1, 2, 3 )
+# print(a)
+# #####################
 # lesson 12
 #####################
 # k = {1: "一年级", 2: "二年级", 3: "三年级", 4: "四年级", 5: "五年级", 6: "六年级"}
