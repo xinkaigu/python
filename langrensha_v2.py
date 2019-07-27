@@ -2,6 +2,7 @@ import time
 import pygame, sys
 from pygame.locals import *
 from sys import exit
+
 red = 250, 0, 0
 white = 0, 0, 0
 pygame.init()
@@ -32,12 +33,42 @@ while True:
                             for index in range(len(pressed_array)):
                                 if pressed_array[index]:
                                     if index == 0:
-                                        exit()
-# import time
-# import pygame, sys
-# from pygame.locals import *
-# from sys import exit
-# mc = pygame.display.set_mode((1000,500))
-# hi = pygame.image.load("C:\\Users\\Administrator\\Desktop\\mincearft\\1.png")
-# while True:
-#
+                                        import time
+                                        from pygame.locals import *
+                                        from sys import exit
+
+
+                                        while True:
+                                            for event in pygame.event.get():
+                                                if event.type in (QUIT, KEYDOWN):
+                                                    exit()
+                                            mc = pygame.display.set_mode((1000, 500))
+                                            import pygame, sys
+
+                                            image = pygame.image.load('E:/mincearft/mc.png')
+                                            image_size = image.get_size()
+                                            image = pygame.transform.scale(image, (1000, 500))
+                                            screen.blit(image, (0, 0))
+                                            pygame.display.update()
+                                            x1, y1 = pygame.mouse.get_pos()
+
+                                            print(x1,y1)
+                                            if x1 < 99:
+                                                if x1 > 0:
+                                                    if y1 > 499:
+                                                        if y1 < 376:
+                                                            for event in pygame.event.get():
+                                                                if event.type == QUIT:
+                                                                    exit()
+                                                                elif event.type == MOUSEBUTTONDOWN:
+                                                                    pressed_array = pygame.mouse.get_pressed()
+                                                                    for index in range(len(pressed_array)):
+                                                                        if pressed_array[index]:
+                                                                            if index == 0:
+                                                                                print('撸')
+                                                                            elif index == 1:
+                                                                                print('选')
+                                                                            elif index == 2:
+                                                                                print('用')
+
+
